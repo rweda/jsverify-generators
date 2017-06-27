@@ -1,0 +1,25 @@
+{
+  "name": "@rweda/jsverify-generators",
+  "version": "0.0.0",
+  "description": "Common, configurable generators for JSVerify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rweda/jsverify-generators.git"
+  },
+  "author": "Redwood EDA (http://redwoodeda.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rweda/jsverify-generators/issues"
+  },
+  "homepage": "https://github.com/rweda/jsverify-generators#readme",
+  "peerDependencies": {
+    "jsverify": "^0.8.2"
+  },
+  "devDependencies": {
+    "jsverify": "^0.8.2"
+  }
+}
