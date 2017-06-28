@@ -4,7 +4,7 @@
   "description": "Common, configurable generators for JSVerify",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_PATH=. ava"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "peerDependencies": {
     "jsverify": "^0.8.2"
   },
+  "dependencies": {},
   "devDependencies": {
+    "ava": "^0.19.1",
     "jsverify": "^0.8.2"
   }
 }
